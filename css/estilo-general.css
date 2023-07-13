@@ -12,14 +12,13 @@ body {
     color: #ffffffd6;
     grid-template-columns: 1fr;
     box-sizing: border-box;
-    margin: 0;
 
     width: 100%;
     background: linear-gradient(rgb(14, 40, 80),60%, #3A98B9);
 }
 main{
     width: 100%;
-    margin: 150px 0 0 0;
+    margin-top: 150px;
 }
 
 /* MENU */
