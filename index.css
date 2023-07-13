@@ -163,9 +163,12 @@ section{
 }
 
 .clientes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width:100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
 }
 
 
