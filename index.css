@@ -2,9 +2,6 @@
 main{
     text-align: center;
     border-color: black;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* padding-top: 10rem; */
     justify-content: center;
     justify-items: center;
     gap: 1rem;
@@ -159,7 +156,7 @@ section{
     grid-column: 1/-1;
     background-color: rgb(0, 0, 0,0.8);
     color: white;
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
     width: 100%;
 }
 
