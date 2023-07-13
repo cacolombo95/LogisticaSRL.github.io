@@ -152,15 +152,23 @@ div iframe {
 }
 
 section{
-    
+    display: flex;
+    flex-direction: column;
     background-color: rgb(0, 0, 0,0.8);
     color: white;
+    margin: 0;
+    padding: 2rem 0rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     width: 100%;
 }
 
 .clientes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 2rem;
     gap: 1rem;
     width: 100%;
