@@ -160,6 +160,8 @@ section{
     background-color: black;
     color: white;
     padding-top: 2rem;
+    width: 100%;
+    margin:0;
 }
 
 .clientes {
